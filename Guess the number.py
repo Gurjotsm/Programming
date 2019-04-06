@@ -4,7 +4,7 @@ while True:
 		num=int(input('guess the no between 1 to 10 '))
 		break
 	except ValueError:
-		print ('u did nt enter a no. ')	
+		print ('you did not enter a no. ')	
 	except:
 		print ( " unknown error")	
 if num==secret_num:
